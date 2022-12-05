@@ -59,3 +59,12 @@ body {
   height: 3px;
   background: #222;
 }
+
+.container .strengthMeter::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 100%;
+  transition: 0.5s;
+  background: #f00;
+}
